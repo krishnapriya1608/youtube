@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+<!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<!--Google font-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Gupter:wght@400;500;700&family=Kalnia+Glaze:wght@100..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+<!--font awesome-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="icon" href="https://yt3.googleusercontent.com/584JjRp5QMuKbyduM_2k5RlXFqHJtQ0qLIPZpwbUjMJmgzZngHcam5JMuZQxyzGMV5ljwJRl0Q=s176-c-k-c0x00ffffff-no-rj-mo">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <!--Header-->
+  <header>
+    <div class="roww">
+    <nav class="navbar  ">
+      <div class="container-fluid">
+      
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon navbar-dark"></span>
+        </button>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Watched</a></li>
+                  <li><a class="dropdown-item" href="#">New to Watch</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex " role="search">
+              <input class="form-control " type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light " type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+        <nav class="navbar">
+          <div class="container-fluid">
+            <div class="row">
+            <a class="navbar-brand"><i class="fa-brands fa-youtube fa-xl " style="color: #d33131;"></i> Youtube</a></div>
+          </div>
+        </nav>
+     
+        <nav class="navbar ">
+          <div class="container-lg">
+            <form class="d-flex " role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light " type="submit">Search</button>
+            </form>
+          </div>
+        </nav>
+        <div class="coll">
+        <h2><i  class=" fa-solid fa-microphone fa-xs ms-2 mb-7" style="color: #363434;"></i></h2></div>
+   
+        
+        <div class="cols">
+          <i class="fa-solid fa-video fa-lg" style="color: #a9aeb7;"></i></div>
+          <div class="lok">
+            <i class="fa-solid fa-bell" style="color: #a9b0bc;"></i>
+        </div>
+        <div class="pop">
+          <h5><i class="fa-regular fa-user ms-2 mt-1" style="color:black;"></i></div></h5>
+      </div>
+      </div>
+  </header>
+  <!--section-->
+  <section>
+    
+    <div class="sang">
+      <div class="abo">
+        <h5><i class="fa-solid fa-house fa-sm ms-2" style="color: #d0d3d8;"></i></h5>
+        <h6 class="me-3 ">Home</h6>
+        
+      </div>
+
+      
+       
+     
+      
+      <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+        <div class="mol">
+          <button type="button" class="btn btn-outline-secondary">All</button>
+          <button type="button" class="btn btn-outline-secondary">Logical Reasoning</button>
+          <button type="button" class="btn btn-outline-secondary">Data Structures</button>
+          <button type="button" class="btn btn-outline-secondary">Comedy</button>
+          <button type="button" class="btn btn-outline-secondary">Gaming</button>
+          <button type="button" class="btn btn-outline-secondary">Live</button>
+          <button type="button" class="btn btn-outline-secondary">Numerical</button>
+          <button type="button" class="btn btn-outline-secondary">Physics</button>
+          <button type="button" class="btn btn-outline-secondary">Secondary</button>
+          <button type="button" class="btn btn-outline-secondary">Watched</button>
+          
+          <button type="button" class="btn btn-outline-secondary">Live</button>
+
+       
+
+          
+
+<div class="bio">
+<button class="carousel-control-next carousel-light ms-5" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+  <span class="carousel-control-next-icon ms-5" aria-hidden="true"></span>
+  <span class="visually-hidden ">Next</span>
+</button>
+</div>
+</div>
+     
+
+</div>
+
+</div>
+</section>
+<!--Content-->
+<section>
+<div class="wio">
+  <div class="oip">
+  <h5><i class="fa-brands fa-square-youtube fa-lg ms-4 mt-5" style="color: #c5cad3;"></i></h5>
+ <div class="lov"> <h6 class="ms-2 " >Subsricption</h6></div>
+  <h5><i class="fa-solid fa-plus fa-lg mb-5 ms-4 mt-5" style="color: #fff;"></i></h5>
+  <h2><i class="fa-regular fa-id-card fa-xs ms-4" style="color: #fff;"></i></h2>
+  <div class="non"><h6 class="ms-4 mb-2 text-body-danger">You</h6></div>
+</div>
+
+      
+    <div class="videos">
+    
+      <div class="video">
+         <div class="thumbnail">
+            <img width="300px" height="200px" src="https://media.geeksforgeeks.org/wp-content/uploads/20240718154049/Best-Youtube-Channels-for-Data-Science-in-2024.webp" alt="" />
+          </div>
+  
+            <div class="dils">
+               <div class="author">
+                <img width="20px" height="20px" src="https://yt3.ggpht.com/lCeCb47hCbXWFa0I4gi8uWDHzWSs7sjK4FDmk7lFEUMRNp6QRzIQOkwaKhwv7eNKZacRI2uR=s68-c-k-c0x00ffffff-no-rj" alt="" >
+               </div>
+               <div class="title">
+                  <h6>
+                     Fastest way Of Learning <br>Data Structure
+                   </h6>
+                   <h8>
+                    <span> 2M Views • 3 Months Ago </span></h8>
+               </div>
+             </div>
+  
+           </div>
+           <div class="video">
+            <div class="thumbnail">
+               <img width="300px" height="200px" src="https://i.ytimg.com/vi/HT2CpBUpWjI/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDKOb9glklwOIFjMNO4hgrn-xlThw" alt="" />
+             </div>
+     
+               <div class="dils">
+                  <div class="author">
+                    <img width="20px" height="20px" src="https://yt3.ggpht.com/lCeCb47hCbXWFa0I4gi8uWDHzWSs7sjK4FDmk7lFEUMRNp6QRzIQOkwaKhwv7eNKZacRI2uR=s68-c-k-c0x00ffffff-no-rj" alt="" >
+                  </div>
+                  <div class="title">
+                     <h6>
+                      Identifying Covert Forms of  Violence: Coercive Control |<br>
+                      
+                        
+                      </h6>
+                      <h8>
+                       <span> 1M Views •  Months Ago </span></h8>
+                  </div>
+                </div>
+     
+              </div>
+             
+                  <div class="videeo">
+                    <div class="thumb">
+                       <img width="300px" height="200px" src="https://cdnblogdiscover.leverageedu.com/discover/wp-content/uploads/2024/05/07164632/Best-YouTube-Channels-for-Aptitude-and-Reasoning.webp" alt="" />
+                     </div>
+             
+                       <div class="dils">
+                          <div class="author">
+                             <img width="20px" height="20px" src="https://yt3.ggpht.com/lCeCb47hCbXWFa0I4gi8uWDHzWSs7sjK4FDmk7lFEUMRNp6QRzIQOkwaKhwv7eNKZacRI2uR=s68-c-k-c0x00ffffff-no-rj" alt="" >
+                          </div>
+                          <div class="title">
+                             <h6>
+                              Useful Reasoning and Logical Answers
+                              </h6>
+                              
+                               <span> 567k Views • 9 Months Ago </span>
+                          </div>
+                        </div>
+             
+                      </div>
+    </div>
+    
+   
+  
+</div>
+<div class="vidos">
+    
+  <div class="video">
+     <div class="thumbnail">
+        <img width="300px" height="200px" src="https://i.ytimg.com/vi/fd7S06dtwQA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBKv8WxvaIpeH_2e1Fs-q_Mbf96AQ" alt="" />
+      </div>
+
+        <div class="dils">
+           <div class="author">
+            <img width="20px" height="20px" src="https://yt3.ggpht.com/lCeCb47hCbXWFa0I4gi8uWDHzWSs7sjK4FDmk7lFEUMRNp6QRzIQOkwaKhwv7eNKZacRI2uR=s68-c-k-c0x00ffffff-no-rj" alt="" >
+           </div>
+           <div class="title">
+              <h6>
+                Mr Bean
+               </h6>
+               
+                <h8>
+
+                 <span> 2M Views • 3 Months Ago </span>/h8>
+           </div>
+         </div>
+  </div>
+         <div class="video">
+          <div class="thumbnail">
+             <img width="300px" height="200px" src="https://i.ytimg.com/vi/-kNm-F45V0I/hqdefault.jpg" alt="" />
+           </div>
+     
+             <div class="dils">
+                <div class="author">
+                 <img width="20px" height="20px" src="https://yt3.ggpht.com/lCeCb47hCbXWFa0I4gi8uWDHzWSs7sjK4FDmk7lFEUMRNp6QRzIQOkwaKhwv7eNKZacRI2uR=s68-c-k-c0x00ffffff-no-rj" alt="" >
+                </div>
+                <div class="title">
+                   <h6>
+                      Filter Copy
+                    </h6>
+                    
+                     <span> 2M Views • 3 Months Ago </span>
+                </div>
+              </div>
+         </div>
+              <div class="video">
+                <div class="thumbnail">
+                   <img width="300px" height="200px" src="https://i.ytimg.com/vi/KOG_P1y2ols/hq720.jpg?sqp=-oaymwEXCK4FEIIDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBOZ8MfajLX4VxBsDX3bCJ3Ug_XEg" alt="" />
+                 </div>
+           
+                   <div class="dils">
+                      <div class="author">
+                       <img width="20px" height="20px" src="https://yt3.ggpht.com/lCeCb47hCbXWFa0I4gi8uWDHzWSs7sjK4FDmk7lFEUMRNp6QRzIQOkwaKhwv7eNKZacRI2uR=s68-c-k-c0x00ffffff-no-rj" alt="" >
+                      </div>
+                      <div class="title">
+                         <h6>
+                            Bharathanatyam 
+                          </h6>
+                          
+                           <span> 980K Views • 2 Months Ago </span>
+                      </div>
+                    </div>
+  </div>
+         
+         </div>
+   <!--Footer-->
+</body>
+</html>

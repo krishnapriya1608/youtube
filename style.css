@@ -1,0 +1,150 @@
+*{
+    font-family: "Roboto", "Arial", sans-serif;
+}
+body{
+    background-color: black;
+}
+
+.roww{
+    display: flex;
+}
+.row a{
+    color: brown;
+}
+.container-lg{
+   margin-left: 190px;
+   margin-top: 10px;
+
+   
+}
+.coll{
+    margin-top: 20px;
+    background-color:#ffff;
+    width:35px;
+    height:35px;
+    border-radius: 50%;
+    
+}
+.cols{
+    margin-top: 17px;
+    margin-left: 280px;
+    padding: 10px;
+}
+.cols:hover{
+    scale:1.05;
+    text-shadow: 4px 6px 6px rgb(135, 18, 59);
+}
+.lok{
+    margin-top: 27px;
+    margin-left:20px;
+}
+.lok:hover{
+    scale:1.05;
+    text-shadow: 4px 6px 6px rgb(135, 18, 59);
+}
+.pop{
+    margin-top: 23px;
+    margin-left:25px;
+    background-color: #fff;
+    width:34px;
+    height:34px;
+    border-radius: 50%;
+    
+}
+.pop:hover{
+    scale:1.05;
+    text-shadow: 4px 6px 6px rgb(135, 18, 59);
+}
+.sang{
+    display: flex;}
+
+
+    .mol{
+        margin:20px;
+        margin-left: 90px;}
+
+.bio{
+ margin-right: 400px;
+ 
+}
+.abo{
+   margin-left: 20px;
+   margin-top: 25px;
+
+  
+   
+}
+.abo:hover{
+    scale:1.05;
+    text-shadow: 4px 6px 6px rgb(135, 18, 59);
+    
+}
+.abo h6{
+    color:aliceblue;
+    font-size: 12px;
+}
+.jio{
+    margin-bottom: 200px;
+}
+.aib{
+    margin-top: 40px;
+    margin-left: 30px;
+    
+}
+.col h6{
+    color: azure;
+    font-size: 12px;
+    
+}
+.poi{
+    background-color: rgb(115,115,115);
+}
+.nio{
+    margin-bottom: 500px;
+}
+.xol h6{
+    color: azure;
+    font-size: 13px;
+}
+
+.wio{
+    display: flex;
+}
+.videos{
+    display: flex;
+    padding:10px;
+    margin-left: 60px;
+    gap:50px;
+}
+.dils{
+    display: flex;
+    padding:5px;
+    margin:3px;
+    gap:9px;
+}
+.videeo{
+    margin-right: 90px;
+}
+.vidos{
+    display: flex;
+    display: flex;
+    padding:10px;
+    margin-left: 150px;
+    gap:50px;
+}
+.title h6 {
+    color:azure
+}
+.title span{
+    color:white;
+    font-size: 12px;
+    margin-right: 20px;
+}
+.lov h6{
+    font-size: 12px;
+    color: whitesmoke;
+}
+.non h6{
+    color: whitesmoke;
+    font-size: 12px;
+}
